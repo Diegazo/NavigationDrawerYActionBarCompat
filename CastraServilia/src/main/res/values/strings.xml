@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Castra Servilia</string>
+    <string name="action_settings">Opciones</string>
+    <string name="hello_world">¡Hola mundo!</string>
+    <string name="texto_bienvenida_1">La pretemporada se acerca y estamos poniendo en forma esta aplicación. En las próximas semanas habrá novedades. Feliz verano a todos.</string>
+    <string name="open">Abrir</string>
+    <string name="close">Cerrar</string>
+
+    <string-array name="opciones_navigation_drawer">
+        <item>Inicio</item>
+        <item>Próximo partido</item>
+        <item>Jornada completa</item>
+        <item>Clasificación</item>
+        <item>Temporada completa</item>
+    </string-array>
+
+    <string-array name="fragments_navigation_drawer">
+        <item>com.castraservilia.Inicio</item>
+        <item>com.castraservilia.Proximo_partido</item>
+        <item>com.castraservilia.Jornada_completa</item>
+        <item>com.castraservilia.Clasificacion</item>
+        <item>com.castraservilia.Temporada_completa</item>
+    </string-array>
+
+    <string name="action_web">Web Castra Servilia</string>
+
+
+
+
+</resources>

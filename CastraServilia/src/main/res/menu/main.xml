@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:castraservilia="http://schemas.android.com/apk/res-auto" >
+    <!-- Para que haya retrocompatibilidad, creamos un xmlns propio, de ese modo
+        podemos añadir la opción showAsAction.
+
+        never -> indica que no es una acción directa (útil para menús)
+        always -> lo va a poner siempre (cuidado con esto, que no todos caben)
+        ifRoom -> si hay sitio lo muestro
+        withText -> con el texto si cabe
+
+        + opciones en http://developer.android.com/guide/topics/resources/menu-resource.html
+    -->
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        castraservilia:showAsAction="never" />
+
+
+<item android:id="@+id/action_web"
+      android:icon="@drawable/ic_action_location_web_site"
+      android:title="@string/action_web"
+      castraservilia:showAsAction="ifRoom|withText" />
+
+
+</menu>
